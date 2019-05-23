@@ -1,7 +1,7 @@
 # Bank-System
 
 - La solución en UML: https://drive.google.com/file/d/1GszxnrbKnoRAhphkNAxC8lKyhSb-t8tV/view?usp=sharing
-- Base de datos: PostgresSql
+- Base de datos: PostgresSql 11.3
 - Base de datos creada utilizando: entity framework code first & migrations.
 - Patrones de diseño aplicados: Repository, DTO, Services y Singleton.
 - Libreria de javascript: JQuery
