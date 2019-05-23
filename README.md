@@ -9,7 +9,7 @@
 
 ## Instalación
 
-- Asegurese de tener PostgreSQL instalado. (Link de descarga: https://www.enterprisedb.com/downloads/postgres-postgresql-downloads)
+- Asegurese de tener PostgreSQL 11.3 instalado. (Link de descarga: https://www.enterprisedb.com/downloads/postgres-postgresql-downloads)
 - Modificar el Usuario/Contraseña del Connection String ubicado en el archivo Web.config: 
 ```<add name="Default" connectionString="host=localhost;port=5432;database=dbBank;user id=postgres;password=123456" providerName="Npgsql" />```
 - Ejecutar la aplicación utilizando Visual Studio.
