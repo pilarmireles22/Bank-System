@@ -12,8 +12,8 @@ INSERT INTO "Clients"(
 
 INSERT INTO "Accounts"(
             "AccountID", "AccountNumber", "Balance", "Bank_BankID", "Client_ClientID")
-    VALUES (1, 12345, 20.2, 1, 1);
+    VALUES (1, 12345, 50000, 1, 1);
 
 INSERT INTO "Accounts"(
             "AccountID", "AccountNumber", "Balance", "Bank_BankID", "Client_ClientID")
-    VALUES (2, 123456, 30.2, 1, 2);
+    VALUES (2, 123456, 50000, 1, 2);
