@@ -2,7 +2,7 @@
 $(document).ready(function () {
     $.ajax({
         type: "GET",
-        url: "http://localhost:51790/api/Account",
+        url: "/api/Account",
         data: "{}",  
         success: function (data) {
             var s = '<option value="-1">Please Select a Account</option>';
@@ -46,7 +46,7 @@ function process() {
     };
 
         $.ajax({
-            url: "http://localhost:51790/api/Transaction",
+            url: "/api/Transaction",
             type: "POST",
             data: JSON.stringify(transaction),
             contentType: "application/json",
