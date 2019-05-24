@@ -1,7 +1,7 @@
 ﻿$(document).ready(function () {
     $.ajax({
         type: "GET",
-        url: "http://localhost:51790/api/Account",
+        url: "/api/Account",
         success: function (data) {
             var a;
             for (var i = 0; i < data.length; i++) {
